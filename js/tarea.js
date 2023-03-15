@@ -61,14 +61,14 @@ let num1, num2, raiz
 num1= parseInt(prompt(`ingresa un numero`));
 num2= parseInt(prompt(`ingresa un segundo numero`));
 raiz= parseInt(Math.sqrt(num2))
-if(num1<num2){
-    document.write(`El mayor numero es ${num1}`)
-} else if(num2<num1){
-    document.write(`el mayor numero es ${num2}`)
+ if(num1<num2){
+    document.write(`El mayor numero ingrasado es ${num1}`)
+ } else if(num2<num1){
+    document.write(`el mayor numero ingresado es ${num2}`)
 } else if(num1==num2){
     document.write(`no podemos decirte cual numero es el mayor porque ambos son iguales`)
 } else {
-    document.write(`valor igresado incorrecto`)
-}
+   document.write(`valor igresado incorrecto`)
+ }
 
-document.write(`la raiz cuadrada del segundo numero ingresado es ${raiz}`)
+document.write(`<br> la raiz cuadrada del segundo numero ingresado es ${raiz}`)
