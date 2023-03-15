@@ -60,7 +60,7 @@
 let num1, num2, raiz 
 num1= parseInt(prompt(`ingresa un numero`));
 num2= parseInt(prompt(`ingresa un segundo numero`));
-raiz= parseInt(Math.sqrt(num2))
+raiz= parseFloat(Math.sqrt(num2))
  if(num1<num2){
     document.write(`El mayor numero ingrasado es ${num1}`)
  } else if(num2<num1){
