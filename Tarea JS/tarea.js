@@ -57,18 +57,21 @@
 // ● indicar cual es el menor
 // ● obtener la raíz cuadrada del segundo número
 
-let num1, num2, raiz 
-num1= parseInt(prompt(`ingresa un numero`));
-num2= parseInt(prompt(`ingresa un segundo numero`));
-raiz= parseFloat(Math.sqrt(num2))
- if(num1>num2){
-    document.write(`El mayor numero ingresado es ${num1}`)
- } else if(num2>num1){
-    document.write(`el mayor numero ingresado es ${num2}`)
-} else if(num1==num2){
-    document.write(`No podemos decirte cual numero es el mayor porque ambos son iguales`)
-} else {
-   document.write(`valor igresado incorrecto`)
- }
+// let num1, num2, num3, raiz 
+// num1= parseInt(prompt(`ingresa un numero`));
+// num2= parseInt(prompt(`ingresa un segundo numero`));
+// num3= parseInt(prompt(`ingresa un tercer numero`));
+// raiz= parseFloat(Math.sqrt(num2))
+//  if(num1>num2 && num1>num3){
+//     document.write(`El mayor numero ingresado es ${num1}`)
+// } else if(num2>num1 && num2>num3){
+//     document.write(`el mayor numero ingresado es ${num2}`)
+// } else if(num3>num1 && num3>num2){
+//    document.write(`el mayor numero ingresado es ${num3}`)
+// } else if(num1==num2 && num1==num3){
+//     document.write(`No podemos decirte cual numero es el mayor porque son iguales`)
+// } else {
+//    document.write(`valor igresado incorrecto`)
+// }
 
-document.write(`<br> la raiz cuadrada del segundo numero ingresado es ${raiz}`)
+// document.write(`<br> la raiz cuadrada del segundo numero ingresado es ${raiz}`)
