@@ -61,7 +61,8 @@
 // num1= parseInt(prompt(`ingresa un numero`));
 // num2= parseInt(prompt(`ingresa un segundo numero`));
 // num3= parseInt(prompt(`ingresa un tercer numero`));
-// raiz= parseFloat(Math.sqrt(num2))
+// raiz= Math.sqrt(num2);
+
 //  if(num1>num2 && num1>num3){
 //     document.write(`El mayor numero ingresado es ${num1}`)
 // } else if(num2>num1 && num2>num3){
@@ -75,3 +76,17 @@
 // }
 
 // document.write(`<br> la raiz cuadrada del segundo numero ingresado es ${raiz}`)
+
+// SEGUNDA OPCION
+
+// let num1, num2, num3, mayor, menor, raiz;
+
+// num1=parseInt(prompt(`Ingresar el primer numero`));
+// num2=parseInt(prompt(`Ingresar el segundo numero`));
+// num3=parseInt(prompt(`Ingresar el tercer numero`));
+
+// mayor= Math.max(num1,num2,num3);
+// menor= Math.min(num1,num2,num3);
+// raiz=  Math.sqrt(num2);
+
+// document.write(`El mayor numero ingresado es ${mayor}, el menor numero  es ${menor} y la raiz cuadrada del segundo numero es ${raiz}.`);
