@@ -61,3 +61,16 @@
 // }
 
 // 11.- Añadir al ejercicio anterior que nos diga por cuál de los cuatro es divisible (hay que decir todos por los que es divisible)
+// let numero1= parseInt(prompt(`Ingrese un valor`));
+// if(numero1 % 2 == 0){
+//       document.write(`${numero1} es divisible por dos (2)<br>`)
+// }
+// if(numero1 % 3 ==0){
+//     document.write(`${numero1} es divisible por tres  (3)<br>`)
+// }
+// if(numero1 % 5 ==0){
+//     document.write(`${numero1} es divisible por cinco  (5)<br>`)
+// } 
+// if(numero1 % 7 ==0){
+//     document.write(`${numero1} es divisible por siete  (7)<br>`)
+// } 
